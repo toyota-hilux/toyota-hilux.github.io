@@ -154,6 +154,11 @@ header.sticky ul li a
     margin-bottom: 10px;
 }
 
+.contentBx p
+{
+    text-justify: inter-word;
+}
+
 .w50
 {
     min-width: 50%;
@@ -164,7 +169,7 @@ img
     max-width: 100%;
 }
 
-.services
+.experience
 {
     background: #111;   
 }
@@ -174,7 +179,7 @@ img
     color: white;
 }
 
-.services .content
+.experience .content
 {
     display: flex;
     justify-content: center;
@@ -182,7 +187,7 @@ img
     flex-direction: row;
 }
 
-.services .content .servicesBx
+.experience .content .experienceBx
 {
     padding: 40px 20px;
     background: #222;
@@ -193,18 +198,18 @@ img
     transition: 0.5s;
 }
 
-.services .content .servicesBx:hover
+.experience .content .experienceBx:hover
 {
     background: #00986f;
 }
 
-.services .content .servicesBx img
+.experience .content .experienceBx img
 {
     max-width: 80px;
     filter: invert(1);
 }
 
-.services .content .servicesBx h2
+.experience .content .experienceBx h2
 {
     font-size: 20px;
     font-weight: 500;
@@ -226,50 +231,6 @@ img
 .work .content .workBx img
 {
     max-width: 100%;
-}
-
-.testimonial
-{
-    background: #f7f7f7;
-}
-
-.testimonial .content
-{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.testimonial .content .testimonialBx
-{
-    max-width: calc(50% - 40px);
-    padding: 60px 40px;
-    margin: 20px;
-    background: #00986f;
-}
-
-.testimonial .content .testimonialBx p
-{
-    color: white;
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.testimonial .content .testimonialBx h3
-{
-    margin-top: 40px;
-    text-align: end;
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1em;
-}
-
-.testimonial .content .testimonialBx h3 span
-{
-    font-size: 14px;
-    font-weight: 400;    
 }
 
 .contact
@@ -476,7 +437,7 @@ img
     {
         margin-bottom: 20px;
     }
-    .services .content .servicesBx
+    .experience .content .experienceBx
     {
         margin: 10px;
     }
@@ -484,16 +445,6 @@ img
     {
         width: 100%;
         padding: 10px;
-    }
-    .testimonial .content .testimonialBx
-    {
-        max-width: calc(100% - 20px);
-        margin: 10px;
-        padding: 40px 20px;
-    }
-    .testimonial .content .testimonialBx h3
-    {
-        margin-top: 20px;
     }
     .contactInfo
     {
